@@ -9,9 +9,15 @@ To compile it: g++ main.cpp -o <name of the object> -lGL -lglut -Wall
 Below some screenshots of the program running properly and its pathological case:
 
 ![alt tag](https://github.com/netolcc06/Rays/blob/master/ex01.png)
+
 ![alt tag](https://github.com/netolcc06/Rays/blob/master/ex02.png)
+
 ![alt tag](https://github.com/netolcc06/Rays/blob/master/ex03.png)
+
 ![alt tag](https://github.com/netolcc06/Rays/blob/master/ex04.png)
+
+My solution has one flaw. When a line intersects a polygon right at one of its corners without getting inside of the polygon itself, it will change the color line anyway.
+
 ![alt tag](https://github.com/netolcc06/Rays/blob/master/pat_case.png)
 
 
