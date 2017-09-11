@@ -18,6 +18,6 @@ Below some screenshots of the program running properly and its pathological case
 
 My solution has one flaw. When a line intersects a polygon right at one of its corners without getting inside of the polygon itself, it will change the color line anyway. See it below:
 
-![alt tag](https://github.com/netolcc06/Rays/blob/master/pat_case.png)
+![alt tag](https://github.com/netolcc06/Rays/blob/master/pat_case2.png)
 
 
